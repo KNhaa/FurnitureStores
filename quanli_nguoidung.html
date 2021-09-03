@@ -1,0 +1,325 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <link rel="stylesheet" href="quanli_sanpham.css" type="text/css" media="all" />
+    <meta charset="UTF-8">
+    <title>Trang quản lí</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <a href="index.html"> <img src="logot3.jpg" class="logo"> </a>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li class="active">Xin chào quản lý</li>
+                <li><a href="index.html">Đăng xuất</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="header">
+        <nav class="main-nav">
+            <ul class="main-nav-ul">
+                <li><a href="index.html"><i class="fa fa-home"></i> Trang chủ</a></li>
+
+                <li><a href="Admin.html"><i class="fa fa-cube"></i> Quản lý<span class="sub-arrow"></span></a></span>
+                    <ul>
+                        <li><a href="quanli_sanpham.html">Quản lý sản phẩm</a></li>
+                        <li><a href="quanli_nguoidung.html">Quản lý khách hàng</a></li>
+                        <li><a href="quanli_donhang.html">Quản lý đơn hàng</a></li>
+                    </ul>
+                </li>
+                <li><a  href="Admin.html"><i class="fa fa-pie-chart"></i>Thống kê<span class="sub-arrow"></span></a>
+                  <ul>
+                    <li><a href="Thongke.html">Quý I - 2019</a></li>
+                    <li><a href="Thongke-2.html">Quý II - 2019</a></li>
+                    <li><a href="Thongke-3.html">Quý III- 2019</a></li>
+                    <li><a href="Thongke-4.html">Quý IV - 2019</a></li>
+                  </ul>               
+                </li>
+            </ul>
+        </nav>
+
+
+
+        <h2 class="text-center">Quản lý khách hàng</h2>
+
+       
+
+        <!--------------CONTENT TABLE--------------->
+        <table class="content-table">
+            <thead>
+              <tr>
+                <th>Mã khách hàng</th>
+                <th>Tên khách hàng</th>
+                <th>Điểm tích lũy</th>
+                <th>Thư điện tử</th>
+                <th>Trạng thái</th>
+                <th>Thao tác</th>              
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>KH1</td>
+                <td>Nguyễn Văn Bình</td>
+                <td>50</td>
+                <td>kh1abc@gmail.com</td>
+                <td>
+                    <select>
+                      <option value="0">Hoạt động</option>
+                      <option value="1">Khóa</option>                     
+                    </select>
+                </td>
+                <td class="actions" data-th="">
+                  <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                    title="Chỉnh sửa thông tin"></i>
+            </button>
+              <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                  title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+              </button>
+                </td>
+                
+              </tr>
+              <tr>
+                  <td>KH2</td>
+                  <td>Trần Văn B</td>
+                  <td>150</td>
+                  <td>vanbabc@gmail.com</td>
+                  <td>
+                      <select>
+                        <option value="0">Hoạt động</option>
+                        <option value="1">Khóa</option>                     
+                      </select>
+                  </td>
+                  <td class="actions" data-th="">
+                    <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                      title="Chỉnh sửa thông tin"></i>
+              </button>
+                <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                    title="Xóa "><i class="fa fa-trash-o"></i>
+                </button>
+                  </td>
+                  
+                </tr>
+                <tr>
+                    <td>KH3</td>
+                    <td>Bé Yêu</td>
+                    <td>250</td>
+                    <td>beyeu@gmail.com</td>
+                    <td>
+                        <select>
+                          <option value="0">Hoạt động</option>
+                          <option value="1">Khóa</option>                     
+                        </select>
+                    </td>
+                    <td class="actions" data-th="">
+                      <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                        title="Chỉnh sửa thông tin"></i>
+                </button>
+                  <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                      title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+                  </button>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td>KH4</td>
+                    <td>Phan Văn Trị</td>
+                    <td>120</td>
+                    <td>bububu@gmail.com</td>
+                    <td>
+                        <select>
+                          <option value="0">Hoạt động</option>
+                          <option value="1">Khóa</option>                     
+                        </select>
+                    </td>
+                    <td class="actions" data-th="">
+                      <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                        title="Chỉnh sửa thông tin"></i>
+                </button>
+                  <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                      title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+                  </button>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td>KH5</td>
+                    <td>Hồ Văn Hớn</td>
+                    <td>100</td>
+                    <td>honho222@gmail.com</td>
+                    <td>
+                        <select>
+                          <option value="0">Hoạt động</option>
+                          <option value="1">Khóa</option>                     
+                        </select>
+                    </td>
+                    <td class="actions" data-th="">
+                      <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                        title="Chỉnh sửa thông tin"></i>
+                </button>
+                  <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                      title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+                  </button>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td>KH6</td>
+                    <td>Ngô Minh Tài</td>
+                    <td>250</td>
+                    <td>latata145@gmail.com</td>
+                    <td>
+                        <select>
+                          <option value="0">Hoạt động</option>
+                          <option value="1">Khóa</option>                     
+                        </select>
+                    </td>
+                    <td class="actions" data-th="">
+                      <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                        title="Chỉnh sửa thông tin"></i>
+                </button>
+                  <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                      title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+                  </button>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td>KH7</td>
+                    <td>Trần Minh Trí</td>
+                    <td>200</td>
+                    <td>tritroc125@gmail.com</td>
+                    <td>
+                        <select>
+                          <option value="0">Hoạt động</option>
+                          <option value="1">Khóa</option>                     
+                        </select>
+                    </td>
+                    <td class="actions" data-th="">
+                      <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                        title="Chỉnh sửa thông tin"></i>
+                </button>
+                  <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                      title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+                  </button>
+                    </td>                    
+                  </tr>
+
+                  <tr>
+                    <td>KH8</td>
+                    <td>Ngô Minh Tuấn</td>
+                    <td>50</td>
+                    <td>tuan145@gmail.com</td>
+                    <td>
+                        <select>
+                          <option value="0">Hoạt động</option>
+                          <option value="1">Khóa</option>                     
+                        </select>
+                    </td>
+                    <td class="actions" data-th="">
+                      <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                        title="Chỉnh sửa thông tin"></i>
+                </button>
+                  <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                      title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+                  </button>
+                    </td>                    
+                  </tr>
+
+                  <tr>
+                    <td>KH9</td>
+                    <td>Ngô Minh Thanh Vân</td>
+                    <td>250</td>
+                    <td>vanthanh67@gmail.com</td>
+                    <td>
+                        <select>
+                          <option value="0">Hoạt động</option>
+                          <option value="1">Khóa</option>                     
+                        </select>
+                    </td>
+                    <td class="actions" data-th="">
+                      <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                        title="Chỉnh sửa thông tin"></i>
+                </button>
+                  <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                      title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+                  </button>
+                    </td>                    
+                  </tr>
+
+                  <tr>
+                    <td>KH10</td>
+                    <td>Vũ Duy Nam</td>
+                    <td>300</td>
+                    <td>namme111@gmail.com</td>
+                    <td>
+                        <select>
+                          <option value="0">Hoạt động</option>
+                          <option value="1">Khóa</option>                     
+                        </select>
+                    </td>
+                    <td class="actions" data-th="">
+                      <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                        title="Chỉnh sửa thông tin"></i>
+                </button>
+                  <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                      title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+                  </button>
+                    </td>                    
+                  </tr>
+                  <tr>
+                    <td>KH11</td>
+                    <td>Phan Thanh Tâm</td>
+                    <td>150</td>
+                    <td>taammaa5@gmail.com</td>
+                    <td>
+                        <select>
+                          <option value="0">Hoạt động</option>
+                          <option value="1">Khóa</option>                     
+                        </select>
+                    </td>
+                    <td class="actions" data-th="">
+                      <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                        title="Chỉnh sửa thông tin"></i>
+                </button>
+                  <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                      title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+                  </button>
+                    </td>                    
+                  </tr>
+                  <tr>
+                    <td>KH12</td>
+                    <td>Nguyễn Minh Triết</td>
+                    <td>300</td>
+                    <td>latata145@gmail.com</td>
+                    <td>
+                        <select>
+                          <option value="0">Hoạt động</option>
+                          <option value="1">Khóa</option>                     
+                        </select>
+                    </td>
+                    <td class="actions" data-th="">
+                      <button class="btn btn-info btn-sm"  onclick="location.href = 'chinhsua_kh.html';" ><i class="fa fa-edit"
+                        title="Chỉnh sửa thông tin"></i>
+                </button>
+                  <button class="btn btn-danger btn-sm" onclick="confirm('Bạn có chắc muốn xóa ?')"
+                      title="Xóa sản phẩm"><i class="fa fa-trash-o"></i>
+                  </button>
+                    </td>                    
+                  </tr>
+            </tbody>
+          </table>
+    </section>
+</body>
+
+</html>

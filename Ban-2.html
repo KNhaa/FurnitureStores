@@ -1,0 +1,395 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="style2.css"  type="text/css" media="all" />
+        <meta charset="UTF-8">
+        <title>Bàn (1)</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="top-nav-bar">
+            <div class="search-box">             
+                <a href="index.html" > <img  src="logot3.jpg" class="logo" > </a> 
+                <input type="text" class="form-control" placeholder="Nhập để tìm sản phẩm...">
+                <span class="input-group-text" ><a href="product.html"><i class="fa fa-search"></i></a>  
+           
+                </span>
+            </div>
+            <div class="menu-bar">
+                <ul>
+                    <li><a href="thongtin_giohang.html"><i class="fa fa-shopping-cart"></i>Giỏ hàng</a></li>
+                    <li><a href="Signup.html">Đăng kí</a></li>
+                    <li><a href="Login.html">Đăng nhập</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <section class="header">
+            <nav class="main-nav">
+                    <ul class="main-nav-ul">
+                        <li><a href="index.html"><i class="fa fa-home"></i>    Trang chủ</a></li>
+                        <li><a href="#"><i class="fa fa-cube"></i>  Sản phẩm<span class="sub-arrow"></span></a>
+                            <ul>
+                                <li><a href="Ban.html">Bàn</a></li>
+                                <li><a href="Ghe.html">Ghế</a></li>
+                                <li><a href="Giuong.html">Giường</a></li>
+                                <li><a href="Tu.html">Tủ</a></li>
+                                <li><a href="Den.html">Đèn</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#a"><i class="fa fa-phone"></i>  Liên hệ</a></li>
+                    </ul>   
+                </nav>
+                <div class="slider">
+                    <div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="table-banner1.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="table-banner6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="table-banner5.jpg" class="d-block w-100" alt="...">
+                            </div>                      
+                        </div>
+                        
+                        <ol class="carousel-indicators">
+                            <li data-target="#slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#slider" data-slide-to="1"></li>
+                            <li data-target="#slider" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+        
+
+        </section>
+
+
+
+<!-----------------------On sale product------------------------------>
+<section class="on-sale">
+    <div class="container">
+        <div class="title-box">
+            <h2>BÀN</h2>
+        </div>
+
+        <div class="row">
+                <form name="timkiem" action="" method="post" class="form-inline">
+                    <div class="form-group">
+                        <label>Tên sản phẩm</label>
+                        <input type="text" class="form-control" placeholder="Tên" id="text">
+                    </div>
+                    <div class="form-group">
+                            <label>Giá từ</label>
+                            <input type="text" class="form-control" id="text">
+                     </div>
+                     <div class="form-group">
+                            <label>đến</label>
+                            <input type="text" class="form-control" id="text">
+                     </div>
+                     <div class="form-group">
+                            <label>Loại sản phẩm</label>
+                            <select class="abc" id="text">
+                                    <option value="1">Bàn</option>
+                                    <option value="2">Ghế</option>
+                                    <option value="3">Giường</option> 
+                                    <option value="4">Tủ</option>
+                                    <option value="5">Đèn</option>                                                                                                                   
+                            </select>
+                     </div>
+                     <div class="form-group">
+                        <input type="submit" class="btn btn-info" value="Lọc" id="text2">
+                     </div>
+                </form>
+            </div>
+            
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-top">
+                    <img src="ban9.jpg">
+                    <div class="overlay-right">
+                        <button type="button" class="btn-secondary" title="Chi tiết">
+                           <a href="product.html"> <i class="fa fa-eye"></i></a>
+                        </button>
+                        <button type="button" class="btn-secondary" title="Thêm vào giỏ hàng">
+                            <a href="thongtin_giohang.html"><i class="fa fa-shopping-cart"></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                        <h3>Bàn ngoải trời Riviera</h3>
+                        <h5>599,000 VNĐ</h5>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="ban10.jpg">
+                        <div class="overlay-right">
+                            <button type="button" class="btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>     
+                            </button>
+                            <button type="button" class="btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-shopping-cart"></i>   
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                            <h3>Bàn ngoài trời Cafe-Royale</h3>
+                            <h5>1,390,000 VNĐ</h5>
+                    </div>
+            </div>
+
+
+
+            <div class="col-md-3">
+                    <div class="product-top">
+                            <img src="ban11.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>   
+                                </button>
+                                <button type="button" class="btn-secondary" title="Quick Shop">
+                                        <i class="fa fa-shopping-cart"></i>   
+                                </button>
+                            </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                                <h3>Bàn góc Connemara</h3>
+                                <h5>1,190,000 VNĐ</h5>
+                    </div>
+             </div>
+
+
+
+                    
+            <div class="col-md-3">
+                    <div class="product-top">
+                                <img src="ban12.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn-secondary" title="Quick Shop">
+                                        <i class="fa fa-eye"></i>   
+                                    </button>
+                                    <button type="button" class="btn-secondary" title="Quick Shop">
+                                            <i class="fa fa-shopping-cart"></i>   
+                                    </button>
+                                </div>
+                    </div>
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                    <h3>Bàn góc Connemara</h3>
+                                    <h5>890,000 VNĐ</h5>
+                            </div>
+                    </div>
+
+
+
+
+                    <div class="col-md-3">
+                        <div class="product-top">
+                            <img src="ban13.jpg">
+                            <div class="overlay-right">
+                                <button type="button" class="btn-secondary" title="Quick Shop">
+                                    <i class="fa fa-eye"></i>   
+                                </button>
+                                <button type="button" class="btn-secondary" title="Quick Shop">
+                                        <i class="fa fa-shopping-cart"></i>   
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                                <h3>Bàn cà phê Suecia</h3>
+                                <h5>2,390,000 VNĐ</h5>
+                        </div>
+                    </div>
+        
+        
+                    <div class="col-md-3">
+                            <div class="product-top">
+                                <img src="ban14.jpg">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn-secondary" title="Quick Shop">
+                                        <i class="fa fa-eye"></i>     
+                                    </button>
+                                    <button type="button" class="btn-secondary" title="Quick Shop">
+                                            <i class="fa fa-shopping-cart"></i>   
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="product-bottom text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                    <h3>Bàn cà phê Suecia</h3>
+                                    <h5>2,390,000 VNĐ</h5>
+                            </div>
+                    </div>
+        
+        
+        
+                    <div class="col-md-3">
+                            <div class="product-top">
+                                    <img src="ban15.jpg">
+                                    <div class="overlay-right">
+                                        <button type="button" class="btn-secondary" title="Quick Shop">
+                                            <i class="fa fa-eye"></i>   
+                                        </button>
+                                        <button type="button" class="btn-secondary" title="Quick Shop">
+                                                <i class="fa fa-shopping-cart"></i>   
+                                        </button>
+                                    </div>
+                            </div>
+                            <div class="product-bottom text-center">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                        <h3>Bàn góc Kingston</h3>
+                                        <h5>649,000 VNĐ</h5>
+                            </div>
+                     </div>
+        
+        
+        
+                            
+                    <div class="col-md-3">
+                            <div class="product-top">
+                                        <img src="ban16.jpg">
+                                        <div class="overlay-right">
+                                            <button type="button" class="btn-secondary" title="Quick Shop">
+                                                <i class="fa fa-eye"></i>   
+                                            </button>
+                                            <button type="button" class="btn-secondary" title="Quick Shop">
+                                                    <i class="fa fa-shopping-cart"></i>   
+                                            </button>
+                                        </div>
+                            </div>
+                                    <div class="product-bottom text-center">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                            <h3>Bàn góc Kingston</h3>
+                                            <h5>699,000 VNĐ</h5>
+                                    </div>
+                            </div>
+            </div>
+
+
+            
+
+
+
+    </div>
+
+</section>
+
+<!-----------------------------Pagination------------------------------------------->
+<section class="pagination">
+    <div class="pagination-container">
+            <ul>
+                    
+                    <li><a href="Ban.html">1</a></li>
+                    <li><a href="Ban-2.html" class="active">2</a></li>
+                    <li><a href="Ban-3.html">3</a></li>
+                   
+                </ul>
+    </div>
+    
+</section>
+
+
+<!-----------------------------FOOTER--------------------------------------------->
+<section id="a" class="footer">
+    <div class="container tex-center">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>LIÊN HỆ VỚI CHÚNG TÔI</h1>
+                <p><b>Đường dây nóng: </b> 092-669-9079</p>
+              
+                <p><b>Thư điện tử: </b>noithat@gmail.com</p>
+               
+                <p><b>Địa chỉ: </b>50 Thành Thái, quận 10, thành phố Hồ Chí Minh</p>
+            
+            </div>
+
+            <div class="col-md-6">
+                <h1>CHI NHÁNH CỬA HÀNG</h1>
+                <p><b>Chi nhánh 1: </b>18.02 An Dương Vương, phường 4, quận 5, thành phố Hồ Chí Minh</p>
+              
+                <p><b>Chi nhánh 2: </b>24 Lê Đức Thọ, phường 17, quận Gò Vấp, thành phố Hồ Chí Minh</p>
+               
+                <p><b>Chi nhánh 3: </b>50 Thành Thái, quận 10, thành phố Hồ Chí Minh</p>
+            
+            </div>
+    
+        </div>
+
+        <div class="row">
+           
+    
+        </div>
+        <hr>
+        <p class="copyright"><i class="fa fa-copyright"></i> Bản quyền thuộc về NNP Corp.</p>
+    </div>
+    
+    </section>
+    
+    
+    
+    
+            <script>
+            function openmenu()
+            {
+                document.getElementById("side-menu").style.display="block";
+                document.getElementById("menu-btn").style.display="none";
+                document.getElementById("close-btn").style.display="block";
+    
+            }
+            function closemenu()
+            {
+                document.getElementById("side-menu").style.display="none";
+                document.getElementById("menu-btn").style.display="block";
+                document.getElementById("close-btn").style.display="none";
+            }
+                </script>
+    
+    
+
+</body>
+</html>

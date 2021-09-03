@@ -1,0 +1,174 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="style.css"  type="text/css" media="all" />
+        <meta charset="UTF-8">
+        <title>Single Product</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+            <div class="top-nav-bar">
+                    <div class="search-box">
+                        <a href="index.html" > <img  src="logot3.jpg" class="logo" > </a> 
+            
+                        <input type="text" class="form-control" placeholder="Nhập để tìm sản phẩm...">
+                       <span class="input-group-text"><a href="product.html"><i class="fa fa-search"></i></a> 
+                       
+                        </span>
+                     
+                    </div>
+                    <div class="menu-bar">
+                        <ul>
+                            <li><a href="thongtin_giohang.html"><i class="fa fa-shopping-cart"></i>Giỏ hàng</a></li>
+                            <li><a href="Signup.html">Đăng kí</a></li>
+                            <li><a href="Login.html">Đăng nhập</a></li>
+                        </ul>
+                    </div>
+                </div>
+            
+            
+                <section class="header">
+                    <nav class="main-nav">
+                        <ul class="main-nav-ul">
+                            <li><a href="index.html"><i class="fa fa-home"></i> Trang chủ</a></li>
+                            <li><a href="#"><i class="fa fa-cube"></i> Sản phẩm<span class="sub-arrow"></span></a>
+                                <ul>
+                                    <li><a href="Ban.html">Bàn</a></li>
+                                    <li><a href="Ghe.html">Ghế</a></li>
+                                    <li><a href="Giuong.html">Giường</a></li>
+                                    <li><a href="Tu.html">Tủ</a></li>
+                                    <li><a href="Den.html">Đèn</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#a"><i class="fa fa-phone"></i> Liên hệ</a></li>
+                        </ul>
+                    </nav>
+            
+                </section>
+
+
+<!-----------Single Product---------------->
+<section class="single-product">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+                <div id="product-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="prd1.jpg" class="d-block" >
+                            </div>
+                            <div class="carousel-item">
+                            <img src="prd2.jpg" class="d-block">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="prd3.jpg" class="d-block">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#product-slider" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#product-slider" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                        </a>                                   
+                </div>
+        </div>
+        <div class="col-md-5">
+            <p class="new-arrival text-center">Mới</p>
+            <h2>Sofa Boho</h2>
+            <p>Mã sản phẩm: SF01</p>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <p class="price">5,000,000 VNĐ</p>
+            <p><b>Kích cỡ: </b>D83xW190xH84</p>
+            <p><b>Màu sắc: </b>Xanh dương</p>
+            <p><b>Chất liệu: </b>Gỗ/ Ván ép/ Vải tổng hợp</p>
+            <p><b>Xuất xứ: </b>Việt Nam</p>
+            <label><b>Chọn số lượng</b></label>
+            <input value="1" type="number" id="tentacles" name="tentacles" min="1" max="10" >
+            <button type="button" class="add-btn" onclick="alert('Đã thêm vào giỏ hàng')">Cho vào giỏ hàng</button>
+        </div>
+    </div>    
+</div>
+</section>
+
+<!-----------Product Description--------------->
+
+<section class="product-description">
+<div class="container"> 
+<h6>Giới thiệu sản phẩm</h6>
+<p>Sofa 3 chỗ BOHO là một thiết kế đặc biệt phù hợp cho những không gian nhỏ. Với mức giá hoàn toàn dễ chịu, sản phẩm sở hữu phần khung bằng gỗ ép bền chắc, chân gỗ cao su và đệm lưng êm ái vô cùng thân thiện và thoải mái cho người sử dụng. Sofa BOHO là điểm nhấn trang nhã và lựa chọn lý tưởng cho phòng khách hiện đại.</p>
+</div>
+</section>
+<hr>
+
+
+ <!----------------FOOTER---------------------->
+ <section id="a" class="footer">
+        <div class="container tex-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>LIÊN HỆ VỚI CHÚNG TÔI</h1>
+                    <p><b>Đường dây nóng: </b> 092-669-9079</p>
+
+                    <p><b>Thư điện tử: </b>noithat@gmail.com</p>
+
+                    <p><b>Địa chỉ: </b>50 Thành Thái, quận 10, thành phố Hồ Chí Minh</p>
+
+                </div>
+
+                <div class="col-md-6">
+                    <h1>CHI NHÁNH CỬA HÀNG</h1>
+                    <p><b>Chi nhánh 1: </b>18.02 An Dương Vương, phường 4, quận 5, thành phố Hồ Chí Minh</p>
+
+                    <p><b>Chi nhánh 2: </b>24 Lê Đức Thọ, phường 17, quận Gò Vấp, thành phố Hồ Chí Minh</p>
+
+                    <p><b>Chi nhánh 3: </b>50 Thành Thái, quận 10, thành phố Hồ Chí Minh</p>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+
+            </div>
+            <hr>
+            <p class="copyright"><i class="fa fa-copyright"></i> Bản quyền thuộc về NNP Corp.</p>
+        </div>
+
+    </section>
+                
+                
+                
+                        <script>
+                        function openmenu()
+                        {
+                            document.getElementById("side-menu").style.display="block";
+                            document.getElementById("menu-btn").style.display="none";
+                            document.getElementById("close-btn").style.display="block";
+                
+                        }
+                        function closemenu()
+                        {
+                            document.getElementById("side-menu").style.display="none";
+                            document.getElementById("menu-btn").style.display="block";
+                            document.getElementById("close-btn").style.display="none";
+                        }
+                            </script>
+                
+                
+                
+                    </body>
+                </html>
+    <body>
+
+
+<html>

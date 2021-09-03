@@ -1,0 +1,122 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="dangky.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Đăng ký</title>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="content">
+                <h1 style="font-weight:strong; padding:3px; text-align: center;">ĐĂNG KÝ</h1>
+            <div class="row">
+                <div class="col-xs-12 col-md-12"> <!--"col-xs-12 col-md-8"-->
+                    <form name="dangky" action="index-user.html" method="post">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-6">
+                                <label>Họ</label>
+                                <input class="form-control" name="firstname" placeholder="Họ" type="text" />
+                            </div>
+                            <div class="col-xs-6 col-md-6">
+                                <label>Tên</label>
+                                <input class="form-control" name="lastname" placeholder="Tên" type="text" />
+                            </div>
+                        </div>
+                        <label>Thư điện tử</label>
+                        <input class="form-control" name="email" placeholder="Email" type="email" />
+                        <label>Địa chỉ</label>
+                        <input class="form-control" name="adresss" placeholder="Địa chỉ" type="text" />
+                        <label>Số điện thoại</label>
+                        <input class="form-control" name="phone" placeholder="Số điện thoại" type="phone" />
+                        <label>Tên tài khoản</label>
+                        <input class="form-control" name="id" placeholder="Tên tài khoản" required="" type="text" />
+                        <label>Mật khẩu</label>
+                        <input class="form-control" name="password" placeholder="Mật khẩu" required=""
+                            type="password" />
+                        <label>Xác nhận lại mật khẩu</label>
+                        <input class="form-control" name="repassword" placeholder="Nhập lại mật khẩu" required=""
+                            type="password" />
+                        <label for=""> Ngày sinh</label>
+                        <div class="row">
+                            <div class="col-xs-4 col-md-4">
+                                <select class="form-control" name="day">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4 col-md-4">
+                                <select class="form-control" name="month">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
+                            <div class="col-xs-4 col-md-4">
+                                <input class="form-control" name="year" placeholder="Năm sinh" type="text" />
+                            </div>
+                        </div>
+                        <label class="radio-inline">
+                            <input name="sex" value="male" type="radio" checked="checked" />Nam
+                        </label>
+                        <label class="radio-inline">
+                            <input name="sex" value="female" type="radio" />Nữ
+                        </label>
+                        <br>
+                        <input type="checkbox" name="xacnhandk" value="xndk">Tôi đã đọc và chấp thuận mọi <u><a
+                                href="provisions.html">Điều khoản</a>.</u>
+                        <div style="text-align:right">
+                            <input type="submit" name="signin" class="nutdk" value="Đăng ký" onclick="confirm('Đăng ký thành công')"/>
+                            <input type="reset" name="reset" class="nuthuy" value="Hủy" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

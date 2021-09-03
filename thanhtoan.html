@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="thanhtoan.css" type="text/css">
+    <title>Thông tin thanh toán</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="content">
+            <h1 style="font-weight:strong; padding:3px; text-align: center;">THÔNG TIN THANH TOÁN</h1>
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <!--"col-xs-12 col-md-8"-->
+                    <form name="dangky" action="index-user.html" method="post">
+                        <label>Mã khách hàng</label>
+                        <input class="form-control" value="KH1" type="text">
+
+                        <div class="row">
+                            <div class="col-xs-6 col-md-6">
+                                <label>Họ</label>
+                                <input class="form-control" name="firstname" placeholder="Họ" type="text" value="Nguyen Van" />
+                            </div>
+                            <div class="col-xs-6 col-md-6">
+                                <label>Tên</label>
+                                <input class="form-control" name="lastname" placeholder="Tên" type="text" value="A" />
+                            </div>
+                        </div>
+
+                        <label>TỔNG TIỀN</label>
+                        <input class="form-control" name="price" type="text" value="8000000" />
+
+                        <label>Địa chỉ giao hàng</label>
+                        <input class="form-control" name="adresss" required placeholder="Địa chỉ" type="text" value="65 Điện Biên Phủ, quận Bình Thạnh, TPHCM"/>
+
+                        <label>Số điện thoại</label>
+                        <input class="form-control" name="phone" placeholder="Số điện thoại" type="phone" value="0927476541"/>
+
+                        <label for="loai">Hình thức thanh toán</label>
+                        <select class="form-control" id="loai" name="month">
+                            <option value="1">Thanh toán khi nhận hàng</option>
+                            <option value="2">Chuyển khoản</option>
+                        </select>
+
+                        <div style="text-align:right">
+                            <input type="submit" name="signin" class="nutdk" value="THANH TOÁN" onclick="confirm('Đơn hàng thành công')" />
+                            <input type="reset" name="reset" class="nuthuy" value="Hủy" onclick="confirm('Đơn hàng đã bị hủy')" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
